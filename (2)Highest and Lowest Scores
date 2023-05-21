@@ -1,0 +1,24 @@
+#The way of "for loop"
+mark = [56,78,73,92,87,98,28,91,85,70,66,45,93]
+top = mark[0]
+low = mark[0]
+for num in mark:
+    if top < num:
+        top = num      
+    elif low > num:
+        low = num
+print(f"本班最高分为{top}，最低分为{low}")
+
+
+#The way of "while loop"
+mark = [56,78,73,92,87,98,28,91,85,70,66,45,93]
+counter = 0
+top = mark[counter]
+low = mark[counter]
+while counter < 13:
+    if top < mark[counter]:
+        top = mark[counter]      
+    elif low > mark[counter]:
+        low = mark[counter]
+    counter = counter + 1
+print(f"本班最高分为{top}，最低分为{low}")
