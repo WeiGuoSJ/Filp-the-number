@@ -7,3 +7,5 @@ There is the questions:
 (2)Highest and Lowest Scores
 
 (3)Online Payment
+
+(4)exchange rate calculation
