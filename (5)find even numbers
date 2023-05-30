@@ -1,0 +1,7 @@
+counter = 1
+evenNumber = []
+while counter < 21:
+    if counter % 2 == 0:
+        evenNumber.append(counter)
+    counter = counter + 1
+print(evenNumber)
