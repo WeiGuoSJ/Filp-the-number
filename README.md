@@ -11,3 +11,5 @@ There is the questions:
 (4)exchange rate calculation
 
 (5)find even numbers
+
+(6)queue of odd number
